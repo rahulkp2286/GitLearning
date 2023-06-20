@@ -18,6 +18,9 @@ public class Alerts_WindowAuthentication {
 		driver.get("http://admin:admin@the-internet.herokuapp.com/");		
 		driver.findElement(By.linkText("Basic Auth")).click();
 		
+		//chnages in 2nd file 
+		System.out.println("line code change 6");
+		
 
 	}
 
