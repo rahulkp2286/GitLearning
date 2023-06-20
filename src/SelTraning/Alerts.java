@@ -22,6 +22,9 @@ public class Alerts {
 		System.out.println(driver.switchTo().alert().getText());
 		driver.switchTo().alert().dismiss();
 		
+		//develop branch
+		System.out.println("chnages made to develop branch in git learning");
+		
 
 	}
 
